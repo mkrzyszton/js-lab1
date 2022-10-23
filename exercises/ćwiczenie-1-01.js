@@ -5,6 +5,6 @@
 let area = 1;
 let radius = '';
 
-radius += Math.sqrt(area) / Math.PI
+radius += Math.sqrt(area).toPrecision(2)
 
 console.log(radius)
