@@ -10,7 +10,12 @@
  */
 let height = 5;
 let triangle = '';
-
-for (let i = 0; i < height; i++) {
-    console.log(triangle += '#')
+ 
+for (let i = 0; i < height; i++)  {
+    triangle += '\n'
+    for (let j = 0; j < i + 1; j++)  {
+        triangle += '#'
+    }
 }
+  
+console.log(triangle)
